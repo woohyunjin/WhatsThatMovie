@@ -38,21 +38,21 @@
 		67EC5B6716D1A2650037128E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67EC5B6916D1A2650037128E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67EC5B6B16D1A2650037128E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		67EC5B6F16D1A2650037128E /* WhatsThatMovie-Info.plist */ = {isa = PBXFileReference; path = "WhatsThatMovie-Info.plist"; sourceTree = "<group>"; };
+		67EC5B6F16D1A2650037128E /* WhatsThatMovie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatsThatMovie-Info.plist"; sourceTree = "<group>"; };
 		67EC5B7116D1A2650037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67EC5B7316D1A2650037128E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67EC5B7516D1A2650037128E /* WhatsThatMovie-Prefix.pch */ = {isa = PBXFileReference; path = "WhatsThatMovie-Prefix.pch"; sourceTree = "<group>"; };
-		67EC5B7616D1A2650037128E /* WhatsThatMovieAppDelegate.h */ = {isa = PBXFileReference; path = WhatsThatMovieAppDelegate.h; sourceTree = "<group>"; };
+		67EC5B7516D1A2650037128E /* WhatsThatMovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatsThatMovie-Prefix.pch"; sourceTree = "<group>"; };
+		67EC5B7616D1A2650037128E /* WhatsThatMovieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsThatMovieAppDelegate.h; sourceTree = "<group>"; };
 		67EC5B7716D1A2650037128E /* WhatsThatMovieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsThatMovieAppDelegate.m; sourceTree = "<group>"; };
 		67EC5B7A16D1A2650037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		67EC5B7D16D1A2650037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		67EC5B7F16D1A2650037128E /* WhatsThatMovieViewController.h */ = {isa = PBXFileReference; path = WhatsThatMovieViewController.h; sourceTree = "<group>"; };
+		67EC5B7F16D1A2650037128E /* WhatsThatMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsThatMovieViewController.h; sourceTree = "<group>"; };
 		67EC5B8016D1A2660037128E /* WhatsThatMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsThatMovieViewController.m; sourceTree = "<group>"; };
 		67EC5B8716D1A2660037128E /* WhatsThatMovieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsThatMovieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EC5B8816D1A2660037128E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		67EC5B9016D1A2660037128E /* WhatsThatMovieTests-Info.plist */ = {isa = PBXFileReference; path = "WhatsThatMovieTests-Info.plist"; sourceTree = "<group>"; };
+		67EC5B9016D1A2660037128E /* WhatsThatMovieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatsThatMovieTests-Info.plist"; sourceTree = "<group>"; };
 		67EC5B9216D1A2660037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		67EC5B9416D1A2660037128E /* WhatsThatMovieTests.h */ = {isa = PBXFileReference; path = WhatsThatMovieTests.h; sourceTree = "<group>"; };
+		67EC5B9416D1A2660037128E /* WhatsThatMovieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsThatMovieTests.h; sourceTree = "<group>"; };
 		67EC5B9516D1A2660037128E /* WhatsThatMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsThatMovieTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
