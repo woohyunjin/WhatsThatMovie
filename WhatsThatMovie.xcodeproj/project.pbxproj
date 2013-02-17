@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67EC5B6816D1A2650037128E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EC5B6716D1A2650037128E /* UIKit.framework */; };
+		67EC5B6A16D1A2650037128E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EC5B6916D1A2650037128E /* Foundation.framework */; };
+		67EC5B6C16D1A2650037128E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EC5B6B16D1A2650037128E /* CoreGraphics.framework */; };
+		67EC5B7216D1A2650037128E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67EC5B7016D1A2650037128E /* InfoPlist.strings */; };
+		67EC5B7416D1A2650037128E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC5B7316D1A2650037128E /* main.m */; };
+		67EC5B7816D1A2650037128E /* WhatsThatMovieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC5B7716D1A2650037128E /* WhatsThatMovieAppDelegate.m */; };
+		67EC5B7B16D1A2650037128E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EC5B7916D1A2650037128E /* MainStoryboard_iPhone.storyboard */; };
+		67EC5B7E16D1A2650037128E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EC5B7C16D1A2650037128E /* MainStoryboard_iPad.storyboard */; };
+		67EC5B8116D1A2660037128E /* WhatsThatMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC5B8016D1A2660037128E /* WhatsThatMovieViewController.m */; };
+		67EC5B8916D1A2660037128E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EC5B8816D1A2660037128E /* SenTestingKit.framework */; };
+		67EC5B8A16D1A2660037128E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EC5B6716D1A2650037128E /* UIKit.framework */; };
+		67EC5B8B16D1A2660037128E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EC5B6916D1A2650037128E /* Foundation.framework */; };
+		67EC5B9316D1A2660037128E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67EC5B9116D1A2660037128E /* InfoPlist.strings */; };
+		67EC5B9616D1A2660037128E /* WhatsThatMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC5B9516D1A2660037128E /* WhatsThatMovieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67EC5B8C16D1A2660037128E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EC5B5A16D1A2650037128E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EC5B6216D1A2650037128E;
+			remoteInfo = WhatsThatMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67EC5B6316D1A2650037128E /* WhatsThatMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsThatMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EC5B6716D1A2650037128E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67EC5B6916D1A2650037128E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67EC5B6B16D1A2650037128E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67EC5B6F16D1A2650037128E /* WhatsThatMovie-Info.plist */ = {isa = PBXFileReference; path = "WhatsThatMovie-Info.plist"; sourceTree = "<group>"; };
+		67EC5B7116D1A2650037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67EC5B7316D1A2650037128E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67EC5B7516D1A2650037128E /* WhatsThatMovie-Prefix.pch */ = {isa = PBXFileReference; path = "WhatsThatMovie-Prefix.pch"; sourceTree = "<group>"; };
+		67EC5B7616D1A2650037128E /* WhatsThatMovieAppDelegate.h */ = {isa = PBXFileReference; path = WhatsThatMovieAppDelegate.h; sourceTree = "<group>"; };
+		67EC5B7716D1A2650037128E /* WhatsThatMovieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsThatMovieAppDelegate.m; sourceTree = "<group>"; };
+		67EC5B7A16D1A2650037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		67EC5B7D16D1A2650037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		67EC5B7F16D1A2650037128E /* WhatsThatMovieViewController.h */ = {isa = PBXFileReference; path = WhatsThatMovieViewController.h; sourceTree = "<group>"; };
+		67EC5B8016D1A2660037128E /* WhatsThatMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsThatMovieViewController.m; sourceTree = "<group>"; };
+		67EC5B8716D1A2660037128E /* WhatsThatMovieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsThatMovieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EC5B8816D1A2660037128E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		67EC5B9016D1A2660037128E /* WhatsThatMovieTests-Info.plist */ = {isa = PBXFileReference; path = "WhatsThatMovieTests-Info.plist"; sourceTree = "<group>"; };
+		67EC5B9216D1A2660037128E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67EC5B9416D1A2660037128E /* WhatsThatMovieTests.h */ = {isa = PBXFileReference; path = WhatsThatMovieTests.h; sourceTree = "<group>"; };
+		67EC5B9516D1A2660037128E /* WhatsThatMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsThatMovieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67EC5B6016D1A2650037128E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC5B6816D1A2650037128E /* UIKit.framework in Frameworks */,
+				67EC5B6A16D1A2650037128E /* Foundation.framework in Frameworks */,
+				67EC5B6C16D1A2650037128E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC5B8316D1A2660037128E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC5B8916D1A2660037128E /* SenTestingKit.framework in Frameworks */,
+				67EC5B8A16D1A2660037128E /* UIKit.framework in Frameworks */,
+				67EC5B8B16D1A2660037128E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67EC5B5816D1A2650037128E = {
+			isa = PBXGroup;
+			children = (
+				67EC5B6D16D1A2650037128E /* WhatsThatMovie */,
+				67EC5B8E16D1A2660037128E /* WhatsThatMovieTests */,
+				67EC5B6616D1A2650037128E /* Frameworks */,
+				67EC5B6416D1A2650037128E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67EC5B6416D1A2650037128E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67EC5B6316D1A2650037128E /* WhatsThatMovie.app */,
+				67EC5B8716D1A2660037128E /* WhatsThatMovieTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67EC5B6616D1A2650037128E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67EC5B6716D1A2650037128E /* UIKit.framework */,
+				67EC5B6916D1A2650037128E /* Foundation.framework */,
+				67EC5B6B16D1A2650037128E /* CoreGraphics.framework */,
+				67EC5B8816D1A2660037128E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67EC5B6D16D1A2650037128E /* WhatsThatMovie */ = {
+			isa = PBXGroup;
+			children = (
+				67EC5B7616D1A2650037128E /* WhatsThatMovieAppDelegate.h */,
+				67EC5B7716D1A2650037128E /* WhatsThatMovieAppDelegate.m */,
+				67EC5B7916D1A2650037128E /* MainStoryboard_iPhone.storyboard */,
+				67EC5B7C16D1A2650037128E /* MainStoryboard_iPad.storyboard */,
+				67EC5B7F16D1A2650037128E /* WhatsThatMovieViewController.h */,
+				67EC5B8016D1A2660037128E /* WhatsThatMovieViewController.m */,
+				67EC5B6E16D1A2650037128E /* Supporting Files */,
+			);
+			path = WhatsThatMovie;
+			sourceTree = "<group>";
+		};
+		67EC5B6E16D1A2650037128E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67EC5B6F16D1A2650037128E /* WhatsThatMovie-Info.plist */,
+				67EC5B7016D1A2650037128E /* InfoPlist.strings */,
+				67EC5B7316D1A2650037128E /* main.m */,
+				67EC5B7516D1A2650037128E /* WhatsThatMovie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67EC5B8E16D1A2660037128E /* WhatsThatMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				67EC5B9416D1A2660037128E /* WhatsThatMovieTests.h */,
+				67EC5B9516D1A2660037128E /* WhatsThatMovieTests.m */,
+				67EC5B8F16D1A2660037128E /* Supporting Files */,
+			);
+			path = WhatsThatMovieTests;
+			sourceTree = "<group>";
+		};
+		67EC5B8F16D1A2660037128E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67EC5B9016D1A2660037128E /* WhatsThatMovieTests-Info.plist */,
+				67EC5B9116D1A2660037128E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67EC5B6216D1A2650037128E /* WhatsThatMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EC5B9916D1A2660037128E /* Build configuration list for PBXNativeTarget "WhatsThatMovie" */;
+			buildPhases = (
+				67EC5B5F16D1A2650037128E /* Sources */,
+				67EC5B6016D1A2650037128E /* Frameworks */,
+				67EC5B6116D1A2650037128E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsThatMovie;
+			productName = WhatsThatMovie;
+			productReference = 67EC5B6316D1A2650037128E /* WhatsThatMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67EC5B8616D1A2660037128E /* WhatsThatMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EC5B9C16D1A2660037128E /* Build configuration list for PBXNativeTarget "WhatsThatMovieTests" */;
+			buildPhases = (
+				67EC5B8216D1A2660037128E /* Sources */,
+				67EC5B8316D1A2660037128E /* Frameworks */,
+				67EC5B8416D1A2660037128E /* Resources */,
+				67EC5B8516D1A2660037128E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EC5B8D16D1A2660037128E /* PBXTargetDependency */,
+			);
+			name = WhatsThatMovieTests;
+			productName = WhatsThatMovieTests;
+			productReference = 67EC5B8716D1A2660037128E /* WhatsThatMovieTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67EC5B5A16D1A2650037128E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WhatsThatMovie;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 67EC5B5D16D1A2650037128E /* Build configuration list for PBXProject "WhatsThatMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67EC5B5816D1A2650037128E;
+			productRefGroup = 67EC5B6416D1A2650037128E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67EC5B6216D1A2650037128E /* WhatsThatMovie */,
+				67EC5B8616D1A2660037128E /* WhatsThatMovieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67EC5B6116D1A2650037128E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC5B7216D1A2650037128E /* InfoPlist.strings in Resources */,
+				67EC5B7B16D1A2650037128E /* MainStoryboard_iPhone.storyboard in Resources */,
+				67EC5B7E16D1A2650037128E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC5B8416D1A2660037128E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC5B9316D1A2660037128E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67EC5B8516D1A2660037128E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67EC5B5F16D1A2650037128E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC5B7416D1A2650037128E /* main.m in Sources */,
+				67EC5B7816D1A2650037128E /* WhatsThatMovieAppDelegate.m in Sources */,
+				67EC5B8116D1A2660037128E /* WhatsThatMovieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC5B8216D1A2660037128E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC5B9616D1A2660037128E /* WhatsThatMovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67EC5B8D16D1A2660037128E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67EC5B6216D1A2650037128E /* WhatsThatMovie */;
+			targetProxy = 67EC5B8C16D1A2660037128E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67EC5B7016D1A2650037128E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EC5B7116D1A2650037128E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67EC5B7916D1A2650037128E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EC5B7A16D1A2650037128E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		67EC5B7C16D1A2650037128E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EC5B7D16D1A2650037128E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		67EC5B9116D1A2660037128E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EC5B9216D1A2660037128E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67EC5B9716D1A2660037128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67EC5B9816D1A2660037128E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67EC5B9A16D1A2660037128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsThatMovie/WhatsThatMovie-Prefix.pch";
+				INFOPLIST_FILE = "WhatsThatMovie/WhatsThatMovie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67EC5B9B16D1A2660037128E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsThatMovie/WhatsThatMovie-Prefix.pch";
+				INFOPLIST_FILE = "WhatsThatMovie/WhatsThatMovie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67EC5B9D16D1A2660037128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatsThatMovie.app/WhatsThatMovie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsThatMovie/WhatsThatMovie-Prefix.pch";
+				INFOPLIST_FILE = "WhatsThatMovieTests/WhatsThatMovieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		67EC5B9E16D1A2660037128E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatsThatMovie.app/WhatsThatMovie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsThatMovie/WhatsThatMovie-Prefix.pch";
+				INFOPLIST_FILE = "WhatsThatMovieTests/WhatsThatMovieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67EC5B5D16D1A2650037128E /* Build configuration list for PBXProject "WhatsThatMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EC5B9716D1A2660037128E /* Debug */,
+				67EC5B9816D1A2660037128E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EC5B9916D1A2660037128E /* Build configuration list for PBXNativeTarget "WhatsThatMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EC5B9A16D1A2660037128E /* Debug */,
+				67EC5B9B16D1A2660037128E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67EC5B9C16D1A2660037128E /* Build configuration list for PBXNativeTarget "WhatsThatMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EC5B9D16D1A2660037128E /* Debug */,
+				67EC5B9E16D1A2660037128E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67EC5B5A16D1A2650037128E /* Project object */;
+}
